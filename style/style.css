@@ -1,0 +1,119 @@
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    
+    /* background-image: url(/graphicstock-workplace-of-a-doctor-stethoscope-and-clip-board-on-wooden-desk-background_BCqQhS6Z-_thumb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+.wrapper{
+    position: absolute;
+    background-image: url(/img/stock-photo-top-view-stethoscope-red-heart.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgb(0, 0, 0) 20px 20px 20px 0px; 
+
+}
+
+h1{
+    font-weight: bolder;
+    color: white;
+}
+    .con-animation, .height, .weight, #return {
+        animation: name-breathing 10s infinite normal;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: con-breathing;
+    }
+    
+    @keyframes con-breathing {
+        0% {
+            transform: scale(1);
+        }
+        16% {
+            transform: scale(1.1);
+        }
+        32% {
+            transform: scale(1);
+        }
+        48% {
+            transform: scale(1.1);
+        }
+        64% {
+            transform: scale(1);
+        }
+        80% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+
+        
+    }
+   
+  
+
+
+.height, .weight, .copy{
+    /* margin-top: 60px; */
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+}
+
+#height,#weight{
+    background: transparent;
+    border-radius: 20px;
+    padding: 20px 40px;
+    box-shadow: inset 190px ;
+    color: white;
+    font-size: medium;
+}
+#height,#weight{
+    background: transparent;
+    border-radius: 20px;
+    padding: 20px 40px;
+    box-shadow: inset 190px ;
+    color: white;
+    font-size: medium;
+}
+#btn{
+    margin-top: 20px;
+    background-color: #314a5e;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 40px;
+}
+#btn:hover{
+    background-color:white;
+    scale: 120%;
+    color: #314a5e;
+    
+    
+}
+#return{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+
+}
